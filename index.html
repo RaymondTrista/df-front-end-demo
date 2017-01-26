@@ -63,7 +63,7 @@
 <div id="imgDialog" style="display: none;" onclick="hideBigImg()">
     <img id="bigImg" src=""/>
 </div>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/waterfall.js"></script>
 <script type="text/javascript">
     $(function () {
@@ -75,13 +75,9 @@
             offsetH: 2,
             offsetV: 32,
             whiteBottom: 50,
-
             cols: 3,
             minWidth: 0,
-
-
-            ajaxUrlTemplate: 'example_data/page{{pno}}.json?v=20161008',
-
+            ajaxUrlTemplate: 'example_data/page{{pno}}.json?v=201701262',
             ajaxUrl: '',
             ajaxDataType: 'json',
             ajaxData: {
@@ -89,7 +85,6 @@
                 subid: 0,
                 psize: 10
             },
-
             startPageIndex: 0,
             pageIndexName: 'pno',
             waterBox: 'li',
