@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="df-front-end-demo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/df_front_end_demo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="df-front-end-demo/web/Web" />
+    </root>
+  </artifact>
+</component>
